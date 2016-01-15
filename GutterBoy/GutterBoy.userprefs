@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\Gurarira\Documents\GutterBoy\GutterBoy\Assets\mmd-for-unity-proj-mmd-for-unity-de6d097\Resources\Morph\MorphManager.cs">
+    <Files>
+      <File FileName="Assets\mmd-for-unity-proj-mmd-for-unity-de6d097\Editor\MMDLoader\Private\VMDConverter.cs" Line="544" Column="65" />
+      <File FileName="c:\Users\Gurarira\Documents\GutterBoy\GutterBoy\Assets\mmd-for-unity-proj-mmd-for-unity-de6d097\Resources\Morph\MorphManager.cs" Line="37" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
