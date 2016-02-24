@@ -87,9 +87,38 @@
      <Compile Include="Assets\Import_Item\ZRNAssets\PQAssets\Scripts\SpeedManager.cs" />
      <Compile Include="Assets\Import_Item\ZRNAssets\PQAssets\Scripts\StartPanel.cs" />
      <Compile Include="Assets\Import_Item\ZRNAssets\PQAssets\Scripts\TutorialScene.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRVolumeControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugGraph.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRInputControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRModeParms.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRInput.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVROnCompleteListener.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlugin.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRProfile.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRDebugInfo.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\Scripts\HumanAction.cs" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardAdd.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-ForwardBase.cginc" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Edge.shader" />
      <None Include="Assets\Models\Tda式改変ミク　JKStyle\README.txt" />
@@ -103,6 +132,7 @@
      <None Include="Assets\Models\タータンチェックローズ\タータンチェックローズ.MMD4Mecanim.xml" />
      <None Include="Assets\Models\Tda式ミクワンピース\README.txt" />
      <None Include="Assets\Import_Item\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_DoubleSide.shader" />
+     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader" />
      <None Include="Assets\Models\Tda式改変ミク　JKStyle\readme_English.txt" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent-Edge.shader" />
@@ -110,6 +140,7 @@
      <None Include="Assets\Models\タータンチェックローズ\タータンチェックローズ.xml" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardBase.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting.shader" />
@@ -120,8 +151,10 @@
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardAdd.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Transparent-Edge.shader" />
+     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\Models\Tda式初音ミク・アペンドVer1.00\よんでね.txt" />
      <None Include="Assets\Import_Item\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_way.shader" />
+     <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-AutoLight.cginc" />
      <None Include="Assets\Import_Item\ZRNAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
@@ -135,6 +168,7 @@
      <None Include="Assets\Models\Tda式ミクワンピース\Tda式ミクワンピースRSP.MMD4Mecanim.xml" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Editor\PMX2FBX\pmx2fbx.xml" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" />
+     <None Include="Assets\Plugins\x86\donotdelete.txt" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Lighting.cginc" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent.shader" />
      <None Include="Assets\Models\Tda式ミクワンピース\readme_English.txt" />
@@ -145,11 +179,17 @@
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Dummy.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces.shader" />
      <None Include="Assets\Import_Item\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Lighting.cginc" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="BulletXNA-Unity">
  <HintPath>C:/Users/Gurarira/Documents/GutterBoy/GutterBoy/Assets/Import_Item/BulletXNA/BulletXNA-Unity.dll</HintPath>
